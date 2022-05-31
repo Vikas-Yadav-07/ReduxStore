@@ -4,7 +4,6 @@ import { addToCart } from '../../store/cartSlice';
 import { fetchProduct, STATUSES } from '../../store/productsSlice';
 import SimpleSlider from '../swiper'
 import ProductDetails from '../../ProductDetails/ProductDetails';
-
 function Home() {
     // const [products, setProducts] = useState([]);
     const disptech = useDispatch();
